@@ -104,9 +104,12 @@ export default function Home() {
               fontSize: "1rem",
               color: "#bbb",
               boxShadow: "0 4px 12px rgba(0,0,0,0.5)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundImage: "url('/photo.jpg')"
             }}
           >
-            Your Photo
+
           </div>
         </div>
       </section>
