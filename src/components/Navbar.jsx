@@ -16,7 +16,7 @@ export default function Navbar() {
       >
       {/* Left side - Logo or Name */}
       <div style={{ fontWeight: "bold", fontSize: "1.25rem" }}>
-        Cloud Solutions Consultant
+        Cloud Strategy Consultant
       </div>
 
       {/* Right side - Nav links */}

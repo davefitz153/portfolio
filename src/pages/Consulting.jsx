@@ -3,19 +3,19 @@ import React from "react";
 export default function Consulting() {
   const services = [
     {
-      title: "Cost Optimization",
+      title: "Cost Clarity",
       bullets: [
-        "Review current cloud usage, spending patterns, and infrastructure to identify inefficiencies.",
-        "Implement tagging strategies, resource organization, and cost governance aligned with AWS and FinOps standards.",
-        "Provide actionable outputs such as dashboards, automation scripts, and cost policies to enable ongoing monitoring and savings.",
+        "Build easy-to-read dashboards that show exactly where your cloud spend is going.",
+        "Highlight trends, inefficiencies, and opportunities for savings.",
+        "Provide insights that teams and executives can act on immediately."
       ],
     },
     {
-      title: "Automation & DevOps",
+      title: "Cost Optimization",
       bullets: [
-        "Review current development and deployment workflows to identify bottlenecks, manual processes, and risks.",
-        "Implement CI/CD pipelines, version-controlled infrastructure, and automated testing following DevOps and AWS best practices.",
-        "Deliver fully automated workflows, scripts, deployment pipelines, and documentation to ensure reliable, repeatable, and efficient operations",
+        "Review your current cloud usage and spending to find areas of waste.",
+        "Set up tagging, budgets, and guardrails to control costs as you scale.",
+        "Deliver actionable recommendations, automation, and policies to help you save money and stay on budget."
       ],
     },
     {
@@ -40,10 +40,6 @@ export default function Consulting() {
       }}
     >
       <h1 style={{ fontSize: "2.5rem", marginBottom: "0.25rem" }}>Consulting Services</h1>
-      <p style={{ color: "#bbb", marginBottom: "2rem", fontSize: "1.1rem" }}>
-        I help businesses maximize the value of their cloud investments by optimizing costs, 
-            reducing overruns, and automating workflows.
-      </p>
 
       {services.map((service, idx) => (
         <div key={idx} style={{ marginBottom: "2rem" }}>

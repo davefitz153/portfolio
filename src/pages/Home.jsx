@@ -44,11 +44,10 @@ export default function Home() {
         <div style={{ flex: 1, minWidth: "250px", zIndex: 1 }}>
           <h1 style={{ fontSize: "3rem", marginBottom: "1rem" }}>Hello. I’m Dave.</h1>
           <p style={{ fontSize: "1.25rem", color: "#bbb", maxWidth: "500px", marginBottom: "2rem" }}>
-            I help businesses maximize the value of their cloud investments by optimizing costs, 
-            reducing overruns, and automating workflows.
+            I help businesses find their cloud sweet spot - aligning developer needs with business realities.
           </p>
           <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
-            <a href="/portfolio" style={ctaButtonStyle}>View My Work</a>
+            <a href="/consulting" style={ctaButtonStyle}>How I Can Help</a>
             <a href="/contact" style={ctaButtonStyle}>Get in Touch</a>
           </div>
         </div>
@@ -167,13 +166,13 @@ export default function Home() {
 
 const services = [
   {
-    title: "Cloud Cost Optimization",
-    description: "Cloud strategies to help enterprises optimize spend and maximize ROI.",
+    title: "Cost Clarity",
+    description: "Interactive dashboards that make your cloud spend clear and actionable.",
     color: "#FF9900", // AWS orange
   },
   {
-    title: "Automation & DevOps",
-    description: "Workflow automation and CI/CD pipelines to improve efficiency and reliability.",
+    title: "Cost Optimization",
+    description: "Tagging, automation and governance strategies that help you scale on budget.",
     color: "#0070f3", // blue
   },
   {
