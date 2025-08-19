@@ -5,20 +5,21 @@ export default function Home() {
     <div style={{ display: "flex", flexDirection: "column", gap: "4rem", padding: "0.75rem", background: "#121212", color: "#fff" }}>
       
       {/* Hero Section */}
-      <section
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          alignItems: "center",
-          justifyContent: "space-between",
-          padding: "4rem 2rem",
-          gap: "2rem",
-          flexWrap: "wrap",
-          background: "linear-gradient(135deg, #1e1e1e, #2c2c2c)",
-          borderRadius: "16px",
-          position: "relative",
-        }}
-      >
+        <section
+          className="hero"
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+            justifyContent: "space-between",
+            padding: "4rem 2rem",
+            gap: "2rem",
+            flexWrap: "wrap",
+            background: "linear-gradient(135deg, #1e1e1e, #2c2c2c)",
+            borderRadius: "16px",
+            position: "relative",
+          }}
+        >
         {/* Decorative shapes */}
         <div style={{
           position: "absolute",

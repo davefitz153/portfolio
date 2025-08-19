@@ -40,3 +40,27 @@
 .read-the-docs {
   color: #888;
 }
+
+.hero {
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero > div {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero h1 {
+    font-size: 2rem; /* scale down */
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
