@@ -11,25 +11,26 @@ import Contact from "./pages/Contact";
 export default function App() {
   return (
     <Router>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        minHeight: "100vh",
+        width: "100%",
+      }}
+    >
       <div
         style={{
+          width: "100%",
+          maxWidth: "1200px",
+          margin: "0 auto",  // <-- centers horizontally
+          padding: "1rem",
+          flex: 1,
           display: "flex",
           flexDirection: "column",
-          minHeight: "100vh",
-          minWidth: "100vw",
-          alignItems: "center", // center children horizontally
+          gap: "2rem",
         }}
       >
-        <div
-          style={{
-            width: "100%",
-            maxWidth: "1200px", // controls the width of all content
-            padding: "2rem",
-            flex: 1,
-            display: "flex",
-            flexDirection: "column",
-          }}
-        >
           <Navbar />
 
           <main style={{ flex: 1 }}>
