@@ -4,115 +4,117 @@ export default function Home() {
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: "4rem", padding: "0.75rem", background: "#121212", color: "#fff" }}>
       
-      {/* Hero Section */}
-        <section
-          className="hero"
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            alignItems: "center",
-            justifyContent: "space-between",
-            padding: "4rem 2rem",
-            gap: "2rem",
-            flexWrap: "wrap",
-            background: "linear-gradient(135deg, #1e1e1e, #2c2c2c)",
-            borderRadius: "16px",
-            position: "relative",
-          }}
-        >
-        {/* Decorative shapes */}
-        <div style={{
-          position: "absolute",
-          top: "-20px",
-          left: "-20px",
-          width: "100px",
-          height: "100px",
-          background: "rgba(0, 128, 255, 0.2)",
-          borderRadius: "50%",
-        }} />
-        <div style={{
-          position: "absolute",
-          bottom: "-30px",
-          right: "-30px",
-          width: "150px",
-          height: "150px",
-          background: "rgba(255, 153, 0, 0.15)",
-          borderRadius: "50%",
-        }} />
+ {/* Hero Section */}
+<section
+  className="hero"
+  style={{
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    padding: "4rem 2rem",
+    gap: "2rem",
+    flexWrap: "wrap",
+    background: "linear-gradient(135deg, #1e1e1e, #2c2c2c)",
+    borderRadius: "16px",
+    position: "relative",
+    overflow: "hidden", // prevents decorative shapes from causing scroll
+  }}
+>
+  {/* Decorative shapes */}
+  <div style={{
+    position: "absolute",
+    top: "-20px",
+    left: "-20px",
+    width: "100px",
+    height: "100px",
+    background: "rgba(0, 128, 255, 0.2)",
+    borderRadius: "50%",
+  }} />
+  <div style={{
+    position: "absolute",
+    bottom: "-30px",
+    right: "-30px",
+    width: "150px",
+    height: "150px",
+    background: "rgba(255, 153, 0, 0.15)",
+    borderRadius: "50%",
+  }} />
 
-        {/* Left Column - Intro + CTA */}
-        <div style={{ flex: 1, minWidth: "250px", zIndex: 1 }}>
-          <h1 style={{ fontSize: "3rem", marginBottom: "1rem" }}>Hello. I’m Dave.</h1>
-          <p style={{ fontSize: "1.25rem", color: "#bbb", maxWidth: "500px", marginBottom: "2rem" }}>
-            I help businesses find their cloud sweet spot - aligning developer needs with business realities.
-          </p>
-          <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
-            <a href="/consulting" style={ctaButtonStyle}>How I Can Help</a>
-            <a href="/contact" style={ctaButtonStyle}>Get in Touch</a>
-          </div>
-        </div>
+  {/* Left Column - Intro + CTA */}
+  <div style={{ flex: "0 0 auto", minWidth: "200px", zIndex: 1 }}>
+    <h1 style={{ fontSize: "2.5rem", marginBottom: "1rem" }}>Hello. I’m Dave.</h1>
+    <p style={{ fontSize: "1.25rem", color: "#bbb", maxWidth: "300px", marginBottom: "2rem" }}>
+      I help businesses find their cloud sweet spot - aligning developer needs with business realities.
+    </p>
+    <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
+      <a href="/consulting" style={ctaButtonStyle}>How I Can Help</a>
+      <a href="/contact" style={ctaButtonStyle}>Get in Touch</a>
+    </div>
+  </div>
 
-        {/* Middle Column - AWS Badge */}
-        <div
-          style={{
-            flex: "0 0 150px",
-            minWidth: "150px",
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            gap: "1rem",
-            zIndex: 1,
-          }}
-        >
-          <div
-            style={{
-              width: "150px",
-              height: "50px",
-              background: "#333",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              fontSize: "0.9rem",
-              color: "#fff",
-              borderRadius: "8px",
-              boxShadow: "0 4px 12px rgba(0,0,0,0.4)",
-            }}
-          >
-            <img src="/aws-saa-badge.png" />
-          </div>
-        </div>
+  {/* Middle Column - Photo */}
+  <div
+    style={{
+      flex: "0 0 220px",
+      minWidth: "200px",
+      display: "flex",
+      justifyContent: "center",
+      zIndex: 1,
+    }}
+  >
+    <div
+      style={{
+        width: "220px",
+        height: "220px",
+        borderRadius: "50%",
+        background: "#333",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        fontSize: "1rem",
+        color: "#bbb",
+        boxShadow: "0 4px 12px rgba(0,0,0,0.5)",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundImage: "url('/photo.jpg')",
+      }}
+    />
+  </div>
 
-        {/* Right Column - Photo */}
-        <div
-          style={{
-            flex: 1,
-            minWidth: "200px",
-            display: "flex",
-            justifyContent: "center",
-            zIndex: 1,
-          }}
-        >
-          <div
-            style={{
-              width: "200px",
-              height: "200px",
-              borderRadius: "50%",
-              background: "#333",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              fontSize: "1rem",
-              color: "#bbb",
-              boxShadow: "0 4px 12px rgba(0,0,0,0.5)",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              backgroundImage: "url('/photo.jpg')"
-            }}
-          >
+  {/* Right Column - Badge */}
+  <div
+    style={{
+      flex: "0 0 180px",
+      minWidth: "150px",
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      justifyContent: "center",
+      zIndex: 1,
+    }}
+  >
+    <div
+      style={{
+        width: "180px",
+        height: "180px",
+        background: "#333",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        borderRadius: "12px",
+        boxShadow: "0 4px 12px rgba(0,0,0,0.4)",
+      }}
+    >
+      <img
+        src="/aws-saa-badge.png"
+        alt="AWS Certified Solutions Architect"
+        style={{ width: "100%", height: "100%", objectFit: "contain" }}
+      />
+    </div>
+  </div>
+</section>
 
-          </div>
-        </div>
-      </section>
 
       {/* Services Section */}
       <section>
