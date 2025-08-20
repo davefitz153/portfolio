@@ -11,7 +11,7 @@ export default function Home() {
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
-    justifyContent: "space-between",
+    justifyContent: "center",
     padding: "4rem 2rem",
     gap: "2rem",
     flexWrap: "wrap",
@@ -47,40 +47,41 @@ export default function Home() {
     <p style={{ fontSize: "1.25rem", color: "#bbb", maxWidth: "300px", marginBottom: "2rem" }}>
       I help businesses find their cloud sweet spot - aligning developer needs with business realities.
     </p>
-    <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
-      <a href="/consulting" style={ctaButtonStyle}>How I Can Help</a>
-      <a href="/contact" style={ctaButtonStyle}>Get in Touch</a>
+    <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>
+      <a href="/consulting" style={{ ...ctaButtonStyle, flex: "1 1 auto", textAlign: "center" }}>How I Can Help</a>
+      <a href="/contact" style={{ ...ctaButtonStyle, flex: "1 1 auto", textAlign: "center" }}>Get in Touch</a>
     </div>
   </div>
 
   {/* Middle Column - Photo */}
+<div
+  style={{
+    flex: "1 1 auto",          // allow column to grow/shrink
+    display: "flex",
+    justifyContent: "center",  // centers photo inside column
+    alignItems: "center",      // vertically if needed
+    zIndex: 1,
+  }}
+>
   <div
     style={{
-      flex: "0 0 220px",
-      minWidth: "200px",
+      width: "220px",
+      height: "220px",
+      borderRadius: "50%",
+      background: "#333",
       display: "flex",
+      alignItems: "center",
       justifyContent: "center",
-      zIndex: 1,
+      fontSize: "1rem",
+      color: "#bbb",
+      boxShadow: "0 4px 12px rgba(0,0,0,0.5)",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundImage: "url('/photo.jpg')",
     }}
-  >
-    <div
-      style={{
-        width: "220px",
-        height: "220px",
-        borderRadius: "50%",
-        background: "#333",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        fontSize: "1rem",
-        color: "#bbb",
-        boxShadow: "0 4px 12px rgba(0,0,0,0.5)",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundImage: "url('/photo.jpg')",
-      }}
-    />
-  </div>
+  />
+</div>
+
 
   {/* Right Column - Badge */}
   <div
