@@ -3,30 +3,31 @@ import React from "react";
 export default function Consulting() {
   const services = [
     {
-      title: "Cost Clarity",
+      title: "Data Visualization",
       bullets: [
-        "Build easy-to-read dashboards that show exactly where your cloud spend is going.",
-        "Highlight trends, inefficiencies, and opportunities for savings.",
-        "Provide insights that teams and executives can act on immediately."
+        "Design interactive dashboards in Power BI and other BI tools to make complex data clear and actionable.",
+        "Highlight trends, KPIs, and patterns to support decision-making across teams and executives.",
+        "Deliver visualizations that translate analytics into insights for both technical and business audiences."
       ],
     },
     {
-      title: "Cost Optimization",
+      title: "Data Strategy",
       bullets: [
-        "Review your current cloud usage and spending to find areas of waste.",
-        "Set up tagging, budgets, and guardrails to control costs as you scale.",
-        "Deliver actionable recommendations, automation, and policies to help you save money and stay on budget."
+        "Develop modern, scalable analytics strategies that leverage cloud platforms like AWS and Azure.",
+        "Align data initiatives with business priorities, balancing technical feasibility and operational impact.",
+        "Provide guidance on data architecture, governance, and cloud adoption to maximize value and efficiency."
       ],
     },
     {
-      title: "Cloud Acceleration",
+      title: "Data Solutions",
       bullets: [
-        "Provide guidance on scalable, secure cloud architecture, operational standards, and efficient workflows.",
-        "Hands-on setup of cloud infrastructure, CI/CD workflows, and automation tailored to the team’s needs.",
-        "Develop serverless components on AWS, such as Lambda functions, APIs, and managed databases",
+        "Create custom, data-driven apps and proofs of concept that bring analytics to life and demonstrate value.",
+        "Rapidly prototype solutions that illustrate insights, enable adoption, and accelerate decision-making.",
+        "Bridge technical execution and business needs through interactive, hands-on data applications."
       ],
     },
   ];
+
 
   return (
     <div

@@ -45,7 +45,7 @@ export default function Home() {
   <div style={{ flex: "0 0 auto", minWidth: "200px", zIndex: 1 }}>
     <h1 style={{ fontSize: "2.5rem", marginBottom: "1rem" }}>Hello. I’m Dave.</h1>
     <p style={{ fontSize: "1.25rem", color: "#bbb", maxWidth: "300px", marginBottom: "2rem" }}>
-      I help businesses find their cloud sweet spot - aligning developer needs with business realities.
+      I help businesses unlock the value of their data with modern analytics solutions.
     </p>
     <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>
       <a href="/consulting" style={{ ...ctaButtonStyle, flex: "1 1 auto", textAlign: "center" }}>How I Can Help</a>
@@ -169,18 +169,18 @@ export default function Home() {
 
 const services = [
   {
-    title: "Cost Clarity",
-    description: "Interactive dashboards that make your cloud spend clear and actionable.",
+    title: "Data Visualization",
+    description: "Interactive Power BI dashboards that make your data clear and actionable.",
     color: "#FF9900", // AWS orange
   },
   {
-    title: "Cost Optimization",
-    description: "Tagging, automation and governance strategies that help you scale on budget.",
+    title: "Data Strategy",
+    description: "Modern, scalable data strategies that leverage the cloud within your budget.",
     color: "#0070f3", // blue
   },
   {
-    title: "Cloud Acceleration",
-    description: "Hands-on embedded AWS expertise to help startups and innovators GTM faster.",
+    title: "Data Solutions",
+    description: "Custom apps that transform your data and analytics into interactive products.",
     color: "#f0a500",
   }
 ];

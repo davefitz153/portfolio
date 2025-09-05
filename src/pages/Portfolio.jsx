@@ -8,6 +8,7 @@ export default function Portfolio() {
       "Serverless architecture reduces operational costs",
       "CI/CD automated with GitHub Actions for faster deployments",
       "IaC with Terraform ensures consistent, version-controlled deployments",
+      "Tech: AWS Lambda, API Gateway, DynamoDB, S3, Terraform, SAM, React, MapLibre GL, GitHub Actions"
     ],
     liveLink: "http://mapapp-frontend.s3-website-us-east-1.amazonaws.com/",
     githubLink: "https://github.com/davefitz153/aws-map-tool",
