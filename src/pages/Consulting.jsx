@@ -1,34 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Consulting() {
-  const services = [
-    {
-      title: "Data Visualization",
-      bullets: [
-        "Design interactive dashboards in Power BI and other BI tools to make complex data clear and actionable.",
-        "Highlight trends, KPIs, and patterns to support decision-making across teams and executives.",
-        "Deliver visualizations that translate analytics into insights for both technical and business audiences."
-      ],
-    },
-    {
-      title: "Data Strategy",
-      bullets: [
-        "Develop modern, scalable analytics strategies that leverage cloud platforms like AWS and Azure.",
-        "Align data initiatives with business priorities, balancing technical feasibility and operational impact.",
-        "Provide guidance on data architecture, governance, and cloud adoption to maximize value and efficiency."
-      ],
-    },
-    {
-      title: "Data Solutions",
-      bullets: [
-        "Create custom, data-driven apps and proofs of concept that bring analytics to life and demonstrate value.",
-        "Rapidly prototype solutions that illustrate insights, enable adoption, and accelerate decision-making.",
-        "Bridge technical execution and business needs through interactive, hands-on data applications."
-      ],
-    },
-  ];
-
-
   return (
     <div
       style={{
@@ -42,18 +15,40 @@ export default function Consulting() {
     >
       <h1 style={{ fontSize: "2.5rem", marginBottom: "0.25rem" }}>Consulting Services</h1>
 
-      {services.map((service, idx) => (
-        <div key={idx} style={{ marginBottom: "2rem" }}>
-          <h2 style={{ fontSize: "1.8rem", marginBottom: "0.5rem" }}>{service.title}</h2>
-          <ul style={{ paddingLeft: "1.25rem", color: "#bbb", margin: 0 }}>
-            {service.bullets.map((bullet, bIdx) => (
-              <li key={bIdx} style={{ marginBottom: 0 }}>
-                {bullet}
-              </li>
-            ))}
-          </ul>
-        </div>
-      ))}
+  <p style={{ fontSize: "1rem", lineHeight: 1.6, color: "#bbb" }}>
+    If you are interested in working together, read below for a general idea of how that might look, and <Link to="/contact" style={linkStyle}>contact me</Link> if you'd like to discuss.
+  </p>
+
+  {/* Data Solutions Section */}
+  <div className="data-solutions">
+    <h2 style={{ fontSize: "1.75rem", marginBottom: "1rem" }}>
+      Data Solutions
+    </h2>
+    <p style={{ fontSize: "1rem", lineHeight: 1.6, color: "#bbb" }}>
+      I work on small, focused projects and proofs of concept that are typically fixed-rate and budgeted under $2k. 
+      These are scoped to help you explore new solutions, see what's possible, and deliver quick wins. These projects 
+      are designed to be low-friction, high-impact ways to experiment and move forward without committing to a large 
+      engagement. 
+    </p>
+  </div>
+
+  {/* Fractional Help Section */}
+  <div className="fractional-help">
+    <h2 style={{ fontSize: "1.75rem", marginBottom: "1rem" }}>
+      Fractional Help
+    </h2>
+    <p style={{ fontSize: "1rem", lineHeight: 1.6, color: "#bbb" }}>
+      I'm also availble for fractional arrangements, providing ongoing guidance and support on a part-time basis. 
+      This can include strategy, oversight, or hands-on help - whatever makes sense to keep your analytics, data, and cloud initiatives moving forward efficiently.
+    </p>
+  </div>    
     </div>
   );
 }
+
+const linkStyle = {
+  textDecoration: "none",
+  color: "#0070f3",    
+  fontSize: "1rem",
+  fontWeight: "500",
+};

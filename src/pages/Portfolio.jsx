@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Portfolio() {
   const project = {
-    title: "Earthquake Map App",
+    title: "Earthquake Data Visualization",
     tagline: "Visualizing real-time seismic activity with cost-efficient serverless architecture on AWS.",
     benefits: [
       "Serverless architecture reduces operational costs",

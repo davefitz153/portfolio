@@ -29,6 +29,7 @@ export default function Navbar() {
       >
         <Link to="/" style={linkStyle}>Home</Link>       
         <Link to="/portfolio" style={linkStyle}>Portfolio</Link>
+        <Link to="/consulting" style={linkStyle}>Consulting</Link>
         <Link to="/contact" style={linkStyle}>Contact</Link>
       </div>
     </nav>
