@@ -27,8 +27,7 @@ export default function Navbar() {
           gap: "1rem", // spacing between links
         }}
       >
-        <Link to="/" style={linkStyle}>Home</Link>
-        <Link to="/consulting" style={linkStyle}>Consulting</Link>        
+        <Link to="/" style={linkStyle}>Home</Link>       
         <Link to="/portfolio" style={linkStyle}>Portfolio</Link>
         <Link to="/contact" style={linkStyle}>Contact</Link>
       </div>

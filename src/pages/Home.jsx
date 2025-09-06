@@ -48,8 +48,8 @@ export default function Home() {
       I help businesses unlock the value of their data with modern analytics solutions.
     </p>
     <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>
-      <a href="/consulting" style={{ ...ctaButtonStyle, flex: "1 1 auto", textAlign: "center" }}>How I Can Help</a>
-      <a href="/contact" style={{ ...ctaButtonStyle, flex: "1 1 auto", textAlign: "center" }}>Get in Touch</a>
+      <a href="/portfolio" style={{ ...ctaButtonStyle, flex: "1 1 auto", textAlign: "center" }}>View Portfolio</a>
+      <a href="/contact" style={{ ...ctaButtonStyle, flex: "1 1 auto", textAlign: "center" }}>Contact Me</a>
     </div>
   </div>
 
@@ -116,10 +116,9 @@ export default function Home() {
   </div>
 </section>
 
-
       {/* Services Section */}
       <section>
-        <h2 style={{ textAlign: "center", marginBottom: "2rem" }}>My Services</h2>
+        <h2 style={{ textAlign: "center", marginBottom: "2rem" }}>How I Can Help</h2>
         <div
           style={{
             display: "grid",
@@ -170,7 +169,7 @@ export default function Home() {
 const services = [
   {
     title: "Data Visualization",
-    description: "Interactive Power BI dashboards that make your data clear and actionable.",
+    description: "Interactive dashboards and visuals that make your data clear and actionable.",
     color: "#FF9900", // AWS orange
   },
   {
@@ -182,7 +181,12 @@ const services = [
     title: "Data Solutions",
     description: "Custom apps that transform your data and analytics into interactive products.",
     color: "#f0a500",
-  }
+  },
+  {
+    title: "Tools",
+    description: "AWS, Azure, Databricks, Snowflake, Power BI, Alteryx, Python, SQL",
+    color: "#0070f3",
+  }  
 ];
 
 const ctaButtonStyle = {
