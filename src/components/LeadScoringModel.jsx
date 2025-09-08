@@ -45,7 +45,7 @@ export default function LeadScoringModel() {
   return (
     <div>
       {/* Title & Tagline */}
-      <h1 style={{ fontSize: "2.5rem", marginBottom: "0.25rem" }}>{project.title}</h1>
+      <h1 style={{ fontSize: "2.0rem", marginBottom: "0.25rem" }}>{project.title}</h1>
       <p style={{ color: "#bbb", marginBottom: "1.5rem", fontStyle: "italic" }}>{project.tagline}</p>
 
       {/* Key Benefits */}
@@ -66,7 +66,7 @@ export default function LeadScoringModel() {
           }}
         />
       </div>      
-    <h2>Try It Out</h2>
+    <h1 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Try It Out</h1>
     <div style={{ display: "flex", gap: "1rem", width: "100%", height: "250px" }}>
       <div style={{ flex: 1, display: "flex", flexDirection: "column" }}>
         <label>POST JSON</label>

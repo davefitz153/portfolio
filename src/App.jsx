@@ -17,7 +17,7 @@ export default function App() {
         flexDirection: "column",
         minHeight: "100vh",
         width: "100%",
-        backgroundColor: "#111",
+        backgroundColor: "#222",
         color: "#eee",
       }}
     >

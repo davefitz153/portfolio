@@ -19,7 +19,7 @@ export default function EarthquakeVisualization() {
     <div>
       
       {/* Title & Tagline */}
-      <h1 style={{ fontSize: "2.5rem", marginBottom: "0.25rem" }}>{project.title}</h1>
+      <h1 style={{ fontSize: "2.0rem", marginBottom: "0.25rem" }}>{project.title}</h1>
       <p style={{ color: "#bbb", marginBottom: "1.5rem", fontStyle: "italic" }}>{project.tagline}</p>
 
       {/* Key Benefits */}
