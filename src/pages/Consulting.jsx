@@ -25,7 +25,7 @@ export default function Consulting() {
       Data Solutions
     </h2>
     <p style={{ fontSize: "1rem", lineHeight: 1.6, color: "#bbb" }}>
-      I work on small, focused projects and proofs of concept that are typically fixed-rate and budgeted under $5k. 
+      I work on small, focused projects and proofs of concept that are typically fixed-rate and budgeted under $3k. 
       These are scoped to help you explore new solutions, see what's possible, and deliver quick wins. These projects 
       are designed to be low-friction, high-impact ways to experiment and move forward without committing to a large 
       engagement. 

@@ -17,6 +17,9 @@ export default function Contact() {
         The easiest way to reach me is via LinkedIn.  
         Feel free to send a connect.
       </p>
+      <p style={{ color: "#bbb", marginBottom: "1.5rem", fontSize: "1.1rem" }}>
+        If you'd like to hear more about my services, ask for my 1-pager.
+      </p>      
       <a
         href="https://www.linkedin.com/in/davefitzp/" 
         target="_blank"
