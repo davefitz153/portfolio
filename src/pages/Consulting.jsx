@@ -25,7 +25,7 @@ export default function Consulting() {
       Data Solutions
     </h2>
     <p style={{ fontSize: "1rem", lineHeight: 1.6, color: "#bbb" }}>
-      I work on small, focused projects and proofs of concept that are typically fixed-rate and budgeted under $2k. 
+      I work on small, focused projects and proofs of concept that are typically fixed-rate and budgeted under $5k. 
       These are scoped to help you explore new solutions, see what's possible, and deliver quick wins. These projects 
       are designed to be low-friction, high-impact ways to experiment and move forward without committing to a large 
       engagement. 
@@ -38,7 +38,7 @@ export default function Consulting() {
       Fractional Help
     </h2>
     <p style={{ fontSize: "1rem", lineHeight: 1.6, color: "#bbb" }}>
-      I'm also availble for fractional arrangements, providing ongoing guidance and support on a part-time basis. 
+      I'm also available for fractional arrangements, providing ongoing guidance and support on a part-time basis. 
       This can include strategy, oversight, or hands-on help - whatever makes sense to keep your analytics, data, and cloud initiatives moving forward efficiently.
     </p>
   </div>    
