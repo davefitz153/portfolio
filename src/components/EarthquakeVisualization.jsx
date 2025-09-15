@@ -3,7 +3,7 @@ import React from "react";
 export default function EarthquakeVisualization() {
   const project = {
     title: "Earthquake Data Visualization",
-    tagline: "Visualizing real-time seismic activity with cost-efficient serverless architecture on AWS.",
+    tagline: "Transforms live seismic data via API into an engaging, interactive user experience.",
     benefits: [
       "Serverless architecture reduces operational costs",
       "CI/CD automated with GitHub Actions for faster deployments",
