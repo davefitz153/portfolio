@@ -45,10 +45,10 @@ export default function Home() {
   <div style={{ flex: "0 0 auto", minWidth: "200px", zIndex: 1 }}>
     <h1 style={{ fontSize: "2.5rem", marginBottom: "1rem" }}>Hello. I’m Dave.</h1>
     <p style={{ fontSize: "1.25rem", color: "#bbb", maxWidth: "300px", marginBottom: "2rem" }}>
-      I help businesses unlock the value of their data with modern analytics solutions.
+      I bridge business needs and technology to deliver practical, data-driven solutions.
     </p>
     <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>
-      <a href="/portfolio" style={{ ...ctaButtonStyle, flex: "1 1 auto", textAlign: "center" }}>View Portfolio</a>
+      <a href="/portfolio" style={{ ...ctaButtonStyle, flex: "1 1 auto", textAlign: "center" }}>View Projects</a>
       <a href="/contact" style={{ ...ctaButtonStyle, flex: "1 1 auto", textAlign: "center" }}>Contact Me</a>
     </div>
   </div>
@@ -112,13 +112,18 @@ export default function Home() {
         alt="AWS Certified Solutions Architect"
         style={{ width: "100%", height: "100%", objectFit: "contain" }}
       />
+      <img
+        src="/pspo-badge.png"
+        alt="Professional Scrum Product Owner"
+        style={{ width: "100%", height: "100%", objectFit: "contain" }}
+      />      
     </div>
   </div>
 </section>
 
       {/* Services Section */}
       <section>
-        <h2 style={{ textAlign: "center", marginBottom: "2rem" }}>How I Can Help</h2>
+        <h2 style={{ textAlign: "center", marginBottom: "2rem" }}>Services</h2>
         <div
           style={{
             display: "grid",
@@ -168,25 +173,21 @@ export default function Home() {
 
 const services = [
   {
-    title: "Data Visualization",
-    description: "Interactive dashboards and visuals that make your data clear and actionable.",
+    title: "Project Management",
+    description: "Agile project leadership to steer your projects toward delivery.",
     color: "#FF9900", // AWS orange
   },
   {
-    title: "Data Strategy",
-    description: "Modern, scalable data strategies that leverage the cloud within your budget.",
+    title: "Power BI Consulting",
+    description: "Recommendations, training, and support to maximize your Power BI investment.",
     color: "#0070f3", // blue
   },
   {
-    title: "Data Solutions",
-    description: "Custom apps that transform your data and analytics into interactive products.",
+    title: "Fractional BI/Analytics",
+    description: "Ongoing support to keep your data and analytics projects moving forward.",
     color: "#f0a500",
   },
-  {
-    title: "Tools",
-    description: "AWS, Azure, Databricks, Snowflake, Power BI, Alteryx, Python, SQL",
-    color: "#0070f3",
-  }  
+
 ];
 
 const ctaButtonStyle = {

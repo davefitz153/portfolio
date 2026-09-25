@@ -31,14 +31,14 @@ export default function EarthquakeVisualization() {
 
       {/* Minimal Links */}
       <div style={{ marginBottom: "2rem", display: "flex", gap: "1rem" }}>
-        <a
+        {/* <a
           href={project.liveLink}
           target="_blank"
           rel="noopener noreferrer"
           style={{ color: "#0070f3", textDecoration: "underline", fontWeight: "500" }}
         >
           View Project
-        </a>
+        </a> */}
         <a
           href={project.githubLink}
           target="_blank"

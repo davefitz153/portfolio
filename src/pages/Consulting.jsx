@@ -18,14 +18,38 @@ export default function Consulting() {
   <p style={{ fontSize: "1rem", lineHeight: 1.6, color: "#bbb" }}>
     If you are interested in working together, read below for a general idea of how that might look, and <Link to="/contact" style={linkStyle}>contact me</Link> if you'd like to discuss.
   </p>
+  
+    {/* Project Management Section */}
+  <div className="data-solutions">
+    <h2 style={{ fontSize: "1.75rem", marginBottom: "1rem" }}>
+      Agile Project Management
+    </h2>
+<p style={{ fontSize: "1rem", lineHeight: 1.6, color: "#bbb" }}>
+  I manage small to mid-sized projects with an agile approach, keeping teams
+  aligned, priorities clear, and work moving forward through collaboration,
+  regular feedback, and incremental delivery.
+</p>
+
+  </div>
+  
+  {/* Power BI */}
+  <div className="power-bi">
+    <h2 style={{ fontSize: "1.75rem", marginBottom: "1rem" }}>
+      Power BI Consulting
+    </h2>
+    <p style={{ fontSize: "1rem", lineHeight: 1.6, color: "#bbb" }}>
+      I help you maximize the value of your Power BI investment by identifying opportunities to improve reporting, 
+      data models, workflows, governance, and the overall user experience.
+    </p>
+  </div>  
 
   {/* Data Solutions Section */}
   <div className="data-solutions">
     <h2 style={{ fontSize: "1.75rem", marginBottom: "1rem" }}>
-      Data Solutions
+      Data/Technical Solutions
     </h2>
     <p style={{ fontSize: "1rem", lineHeight: 1.6, color: "#bbb" }}>
-      I work on small, focused projects and proofs of concept that are typically fixed-rate and budgeted under $3k. 
+      I build out small, focused projects and proofs of concept that are typically fixed-rate and budgeted under $3k. 
       These are scoped to help you explore new solutions, see what's possible, and deliver quick wins. These projects 
       are designed to be low-friction, high-impact ways to experiment and move forward without committing to a large 
       engagement. 

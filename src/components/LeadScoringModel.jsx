@@ -66,7 +66,8 @@ export default function LeadScoringModel() {
           }}
         />
       </div>      
-    <h1 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Try It Out</h1>
+      
+    {/* <h1 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Try It Out</h1>
     <div style={{ display: "flex", gap: "1rem", width: "100%", height: "250px" }}>
       <div style={{ flex: 1, display: "flex", flexDirection: "column" }}>
         <label>POST JSON</label>
@@ -87,7 +88,7 @@ export default function LeadScoringModel() {
           style={{ flex: 1, width: "100%" }}
         />
       </div>
-      </div>
+      </div> */}
     </div>
   );
 }
