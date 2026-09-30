@@ -16,7 +16,7 @@ export default function Navbar() {
       >
       {/* Left side - Logo or Name */}
       <div style={{ fontWeight: "bold", fontSize: "1.25rem" }}>
-        Technical Project Manager
+        IT Consultant - Data & Analytics
       </div>
 
       {/* Right side - Nav links */}
@@ -29,7 +29,7 @@ export default function Navbar() {
       >
         <Link to="/" style={linkStyle}>Home</Link>       
         <Link to="/portfolio" style={linkStyle}>Projects</Link>
-        <Link to="/consulting" style={linkStyle}>Consulting</Link>
+        <Link to="/consulting" style={linkStyle}>Services</Link>
         <Link to="/contact" style={linkStyle}>Contact</Link>
       </div>
     </nav>
