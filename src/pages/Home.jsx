@@ -178,16 +178,15 @@ const services = [
     color: "#FF9900", // AWS orange
   },
   {
+    title: "BI/Analytics",
+    description: "Ongoing support to keep your data and analytics projects moving forward.",
+    color: "#0070f3", // blue    
+  },  
+  {
     title: "Power BI Consulting",
     description: "Recommendations, training, and support to maximize your Power BI investment.",
-    color: "#0070f3", // blue
-  },
-  {
-    title: "Fractional BI/Analytics",
-    description: "Ongoing support to keep your data and analytics projects moving forward.",
     color: "#f0a500",
   },
-
 ];
 
 const ctaButtonStyle = {

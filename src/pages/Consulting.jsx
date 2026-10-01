@@ -32,10 +32,22 @@ export default function Consulting() {
 
   </div>
   
+
+  {/* Fractional Help Section */}
+  <div className="fractional-help">
+    <h2 style={{ fontSize: "1.75rem", marginBottom: "1rem" }}>
+      BI & Analytics
+    </h2>
+    <p style={{ fontSize: "1rem", lineHeight: 1.6, color: "#bbb" }}>
+I'm open to full-time, part-time, and contract opportunities across analytics, business intelligence, project management, and data initiatives. I'm comfortable working at both the strategic and hands-on levels, depending on what the team and project require.
+
+    </p>
+  </div>    
+  
   {/* Power BI */}
   <div className="power-bi">
     <h2 style={{ fontSize: "1.75rem", marginBottom: "1rem" }}>
-      Power BI Consulting
+      Power BI
     </h2>
     <p style={{ fontSize: "1rem", lineHeight: 1.6, color: "#bbb" }}>
       I help you maximize the value of your Power BI investment by identifying opportunities to improve reporting, 
@@ -46,26 +58,13 @@ export default function Consulting() {
   {/* Data Solutions Section */}
   <div className="data-solutions">
     <h2 style={{ fontSize: "1.75rem", marginBottom: "1rem" }}>
-      Data/Technical Solutions
+      Data/Technical Projects
     </h2>
     <p style={{ fontSize: "1rem", lineHeight: 1.6, color: "#bbb" }}>
-      I build out small, focused projects and proofs of concept that are typically fixed-rate and budgeted under $3k. 
-      These are scoped to help you explore new solutions, see what's possible, and deliver quick wins. These projects 
-      are designed to be low-friction, high-impact ways to experiment and move forward without committing to a large 
-      engagement. 
+I build focused projects and proofs of concept that help teams explore new ideas, automate processes, and see what's possible without committing to a large engagement. These can range from data and reporting solutions to APIs, automation, and other technical initiatives.
     </p>
   </div>
-
-  {/* Fractional Help Section */}
-  <div className="fractional-help">
-    <h2 style={{ fontSize: "1.75rem", marginBottom: "1rem" }}>
-      Fractional Help
-    </h2>
-    <p style={{ fontSize: "1rem", lineHeight: 1.6, color: "#bbb" }}>
-      I'm also available for fractional arrangements, providing ongoing guidance and support on a part-time basis. 
-      This can include strategy, oversight, or hands-on help - whatever makes sense to keep your analytics, data, and cloud initiatives moving forward efficiently.
-    </p>
-  </div>    
+  
     </div>
   );
 }
